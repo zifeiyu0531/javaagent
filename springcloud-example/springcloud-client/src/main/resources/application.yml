@@ -1,0 +1,13 @@
+server:
+  port: 8801
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8800/eureka
+
+spring:
+  application:
+    name: springcloud-client

@@ -1,0 +1,13 @@
+server:
+  port: 8802
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8800/eureka
+
+spring:
+  application:
+    name: springcloud-caller

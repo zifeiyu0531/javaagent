@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e1094ebd-db5d-418f-8bfc-78e1cfdad7a2" name="虚拟机" url="http://192.168.180.128">
+        <fileTransfer host="192.168.180.128" port="22" rootFolder="/home/zifeiyu/springcloud-example" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
