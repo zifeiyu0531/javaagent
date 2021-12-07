@@ -1,3 +1,5 @@
+package com.zifeiyu;
+
 import java.lang.instrument.Instrumentation;
 
 public class MyAgent {
