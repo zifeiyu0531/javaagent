@@ -8,13 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-caller" />
         <module name="springcloud-client" />
-        <module name="springcloud-example" />
         <module name="springcloud-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="agent" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="agent" options="-parameters" />
       <module name="springcloud-caller" options="-parameters" />
       <module name="springcloud-client" options="-parameters" />
       <module name="springcloud-example" options="-parameters" />

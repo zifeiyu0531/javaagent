@@ -6,6 +6,7 @@
 
     <groupId>com.zifeiyu</groupId>
     <artifactId>springcloud-example</artifactId>
+    <packaging>pom</packaging>
     <version>${pversion}</version>
 
     <parent>
@@ -19,6 +20,7 @@
         <module>springcloud-server</module>
         <module>springcloud-client</module>
         <module>springcloud-caller</module>
+        <module>agent</module>
     </modules>
 
     <properties>

@@ -1,0 +1,2 @@
+Mainfest-version: 1.0
+Premain-class: MyAgent
