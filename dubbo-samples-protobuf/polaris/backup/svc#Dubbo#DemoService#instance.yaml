@@ -13,9 +13,9 @@ service:
   cmdb_mod3: ""
   comment: ""
   owners: "polaris"
-  ctime: "2021-12-30 11:19:24"
-  mtime: "2021-12-30 11:19:24"
-  revision: "f9bd26ad2f23942bad4702f8fe6961f3c797d693"
+  ctime: "2022-01-06 10:15:53"
+  mtime: "2022-01-06 10:15:53"
+  revision: "bb35bb6d54fdcf1961ad6044027a70ab065383b9"
   platform_id: ""
 instances:
 - id: "2fb9a85b0aeb98af1fa1a3823e36f201f28f84ba"
@@ -29,8 +29,8 @@ instances:
   metadata:
     version: ""
     protocol: ""
-  mtime: "2021-12-30 11:19:36"
-  revision: "ab98c65262984f058a61bd72bbcdc57c"
+  mtime: "2022-01-06 10:16:07"
+  revision: "b3eb476751c4453a8f76bd800b21e601"
 - id: "1d47dbefe13f02c8dcc4b302f3c7f544d9260900"
   service: "DemoService"
   namespace: "Dubbo"
@@ -42,5 +42,5 @@ instances:
   metadata:
     version: ""
     protocol: ""
-  mtime: "2021-12-30 11:19:41"
-  revision: "e6660f662a514c58aec66c85cc1aec02"
+  mtime: "2022-01-06 10:16:12"
+  revision: "f3db6325435d4b04ba9780100adc647d"
