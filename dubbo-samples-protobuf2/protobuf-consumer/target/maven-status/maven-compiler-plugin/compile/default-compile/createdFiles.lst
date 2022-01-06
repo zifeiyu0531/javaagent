@@ -1,0 +1,13 @@
+org\apache\dubbo\demo\HelloRequest$Builder.class
+org\apache\dubbo\demo\DemoServiceDubbo.class
+org\apache\dubbo\demo\HelloRequest$1.class
+org\apache\dubbo\demo\DemoService.class
+org\apache\dubbo\demo\DemoServiceProto.class
+org\apache\dubbo\demo\DemoServiceProto$1.class
+org\apache\dubbo\demo\HelloReply$1.class
+org\apache\dubbo\demo\HelloReply$Builder.class
+org\apache\dubbo\demo\HelloRequestOrBuilder.class
+org\apache\dubbo\demo\HelloRequest.class
+org\apache\dubbo\demo\HelloReply.class
+org\apache\dubbo\demo\consumer\ConsumerApplication.class
+org\apache\dubbo\demo\HelloReplyOrBuilder.class

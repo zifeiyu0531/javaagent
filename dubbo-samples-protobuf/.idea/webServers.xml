@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82bffe44-9294-440d-8081-ee5cd307d95d" name="服务器" url="http://43.249.193.233">
+        <fileTransfer host="43.249.193.233" port="20569" rootFolder="/home/inspur/jiangdelun/dubbo-samples-protobuf" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="20569" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

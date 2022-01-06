@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.tencent.polaris:polaris-all:1.2.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/tencent/polaris/polaris-all/1.2.3-SNAPSHOT/polaris-all-1.2.3-20211216.100400-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/tencent/polaris/polaris-all/1.2.3-SNAPSHOT/polaris-all-1.2.3-20211216.100400-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/tencent/polaris/polaris-all/1.2.3-SNAPSHOT/polaris-all-1.2.3-20211216.100400-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
