@@ -1,0 +1,83 @@
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=TRANSIENT_FAILURE}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=941, callsStarted=941, callsSucceeded=0, lastCallStarted=1641484818688}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=489, creationTime=1641456762273, events.size=8}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1641484471422}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1641484473426}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1641484583340}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1641484585343}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1641484681006}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1641484683009}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1641484794719}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1641484796722}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=TRANSIENT_FAILURE}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=1211, creationTime=1641456762334, events.size=8}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<984>: (/127.0.0.1:9993) SHUTDOWN with UNAVAILABLE(io exception), severity=CT_INFO, timestamp=1641484683009}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=TRANSIENT_FAILURE (UNAVAILABLE(io exception)). Will reconnect after 111,709,449,096 ns, severity=CT_INFO, timestamp=1641484683009}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<984>: (/127.0.0.1:9993) Terminated, severity=CT_INFO, timestamp=1641484683009}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING after backoff, severity=CT_INFO, timestamp=1641484794719}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<988>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1641484794719}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<988>: (/127.0.0.1:9993) SHUTDOWN with UNAVAILABLE(io exception), severity=CT_INFO, timestamp=1641484796722}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=TRANSIENT_FAILURE (UNAVAILABLE(io exception)). Will reconnect after 100,905,006,812 ns, severity=CT_INFO, timestamp=1641484796722}
+01-07 00:00:43.043 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<988>: (/127.0.0.1:9993) Terminated, severity=CT_INFO, timestamp=1641484796722}

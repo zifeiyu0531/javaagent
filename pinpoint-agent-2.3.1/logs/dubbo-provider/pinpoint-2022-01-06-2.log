@@ -1,0 +1,5 @@
+01-07 00:00:00.000 [-Executor(15-0)] INFO  c.n.p.p.s.g.StatGrpcDataSender           -- ConnectivityState changed before:CONNECTING, change:TRANSIENT_FAILURE
+01-07 00:00:00.000 [-Executor(15-0)] INFO  c.n.p.p.s.g.StatGrpcDataSender           -- Failed to connect to collector server StatGrpcDataSender 127.0.0.1/9992
+01-07 00:00:01.001 [ect-thread(4-0)] INFO  c.n.p.p.s.g.StatGrpcDataSender           -- newStream StatStream
+01-07 00:00:01.001 [ect-thread(4-0)] INFO  c.n.p.p.s.g.ResponseStreamObserver       -- beforeStart DefaultStreamEventListener{StatStream-2826}
+01-07 00:00:01.001 [-Executor(15-0)] INFO  c.n.p.p.s.g.ResponseStreamObserver       -- Failed to stream, name=DefaultStreamEventListener{StatStream-2826}, cause=io exception: Connection refused: no further information: /127.0.0.1:9992

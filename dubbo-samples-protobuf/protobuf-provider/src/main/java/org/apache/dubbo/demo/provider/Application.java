@@ -16,11 +16,6 @@
  */
 package org.apache.dubbo.demo.provider;
 
-import com.tencent.polaris.api.core.ProviderAPI;
-import com.tencent.polaris.api.rpc.InstanceDeregisterRequest;
-import com.tencent.polaris.api.rpc.InstanceRegisterRequest;
-import com.tencent.polaris.api.rpc.InstanceRegisterResponse;
-import com.tencent.polaris.factory.api.DiscoveryAPIFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.concurrent.CountDownLatch;
@@ -30,48 +25,7 @@ public class Application {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/dubbo-provider.xml");
         context.start();
 
-        ProviderAPI providerAPI = DiscoveryAPIFactory.createProviderAPI();
-        regist(providerAPI);
-
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            deregist(providerAPI);
-            providerAPI.close();
-        }));
         System.out.println("dubbo service started");
         new CountDownLatch(1).await();
-    }
-
-    private static void regist(ProviderAPI providerAPI) {
-        InstanceRegisterRequest instanceRegisterRequest = getRegisterRequest();
-        InstanceRegisterResponse instanceRegisterResponse = providerAPI.register(instanceRegisterRequest);
-        System.out.println("response after register is " + instanceRegisterResponse);
-    }
-
-
-    private static InstanceRegisterRequest getRegisterRequest() {
-        InstanceRegisterRequest instanceRegisterRequest = new InstanceRegisterRequest();
-        instanceRegisterRequest.setNamespace("Dubbo");
-        instanceRegisterRequest.setService("DemoService");
-        instanceRegisterRequest.setHost("192.168.180.1");
-        instanceRegisterRequest.setPort(20880);
-        instanceRegisterRequest.setToken("token");
-        instanceRegisterRequest.setTtl(5);
-        return instanceRegisterRequest;
-    }
-
-    private static void deregist(ProviderAPI providerAPI) {
-        InstanceDeregisterRequest instanceDeregisterRequest = getDeregisterRequest();
-        providerAPI.deRegister(instanceDeregisterRequest);
-        System.out.println("deregister for service successfully: " + instanceDeregisterRequest.getService());
-    }
-
-    private static InstanceDeregisterRequest getDeregisterRequest() {
-        InstanceDeregisterRequest instanceDeregisterRequest = new InstanceDeregisterRequest();
-        instanceDeregisterRequest.setNamespace("Dubbo");
-        instanceDeregisterRequest.setService("DemoService");
-        instanceDeregisterRequest.setHost("127.0.0.1");
-        instanceDeregisterRequest.setPort(20880);
-        instanceDeregisterRequest.setToken("token");
-        return instanceDeregisterRequest;
     }
 }

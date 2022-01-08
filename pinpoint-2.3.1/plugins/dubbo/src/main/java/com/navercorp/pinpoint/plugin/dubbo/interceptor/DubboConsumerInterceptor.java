@@ -9,6 +9,7 @@ import org.apache.dubbo.common.URL;
 import org.apache.dubbo.registry.integration.RegistryDirectory;
 import org.apache.dubbo.rpc.Invocation;
 import org.apache.dubbo.rpc.Invoker;
+import org.apache.dubbo.rpc.Result;
 import org.apache.dubbo.rpc.RpcInvocation;
 import org.apache.dubbo.rpc.cluster.RouterChain;
 import org.apache.dubbo.rpc.cluster.support.AbstractClusterInvoker;
@@ -17,12 +18,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DubboConsumerInterceptor implements AroundInterceptor {
+    private long startTimeMilli;
+
     @Override
     public void before(Object target, Object[] args) {
         AbstractClusterInvoker clusterInvoker = (AbstractClusterInvoker) target;
+        Invocation invocation = (Invocation)args[0];
 
         String namespace = "Dubbo";
-        String service = StringUtil.serviceNameTransform(((Invocation) args[0]).getServiceName());
+        String service = invocation.getServiceName();
         Instance targetInstance = PolarisUtil.getTargetInstance(namespace, service);
 
         String address = StringUtil.buildAdress(targetInstance.getHost(), targetInstance.getPort());
@@ -36,17 +40,17 @@ public class DubboConsumerInterceptor implements AroundInterceptor {
         RegistryDirectory directory = (RegistryDirectory) clusterInvoker.getDirectory();
         RouterChain routerChain = directory.getRouterChain();
         routerChain.setInvokers(newInvokers);
+        this.startTimeMilli = System.currentTimeMillis();
     }
 
     @Override
     public void after(Object target, Object[] args, Object result, Throwable throwable) {
-        final RpcInvocation invocation = (RpcInvocation) args[0];
-        if (invocation == null) {
-            return;
-        }
-        String namespace = "Dubbo";
-        String service = StringUtil.serviceNameTransform(((Invocation) args[0]).getServiceName());
+        long delay = System.currentTimeMillis() - this.startTimeMilli;
+        System.out.println("delay: " + delay);
+        Invocation invocation = (Invocation) args[0];
         URL url = invocation.getInvoker().getUrl();
-        PolarisUtil.polarisAfterHandler(namespace, service, url.getHost(), url.getPort());
+        String namespace = "Dubbo";
+        String service = invocation.getServiceName();
+        PolarisUtil.reportInvokeResult(namespace, service, url, delay, (Result) result, throwable);
     }
 }
