@@ -2,26 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0023a806-33d1-47e6-be76-41925fdfc968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboProviderInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/src/main/java/com/agent/ChangeClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/src/test/java/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/MyClassFileTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/src/main/java/com/agent/MyClassFileTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/interceptor/AroundInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/interceptor/Impl/MyInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/interceptor/Interceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyClassFileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyClassFileTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/interceptor/AroundInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/interceptor/Impl/MyInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/interceptor/Interceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/myagent-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/myagent-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf/protobuf-provider/target/classes/org/apache/dubbo/demo/provider/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf/protobuf-provider/target/classes/org/apache/dubbo/demo/provider/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-provider/target/classes/DemoService.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-provider/target/classes/org/apache/dubbo/demo/provider/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-provider/target/classes/org/apache/dubbo/demo/provider/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/DubboPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/DubboPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboConsumerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboConsumerInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/PolarisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/PolarisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint-2021-12-30-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint_stat.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint_stat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2021-12-17-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2021-12-19-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2021-12-20-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2021-12-22-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2021-12-23-1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint_stat.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint_stat.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/plugin/pinpoint-dubbo-plugin-2.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/plugin/pinpoint-dubbo-plugin-2.3.1.jar" afterDir="false" />
@@ -40,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            <state relative-caret-position="371">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -98,6 +103,7 @@
       <find>to local registry</find>
       <find>doExport</find>
       <find>response after register is</find>
+      <find>succ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,8 +150,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-336" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -157,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,62 +170,11 @@
               <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-samples-protobuf2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-samples-protobuf2" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -325,17 +279,19 @@
       <workItem from="1640678825216" duration="1081000" />
       <workItem from="1640834621045" duration="611000" />
       <workItem from="1641435554663" duration="11228000" />
-      <workItem from="1641623084812" duration="977000" />
+      <workItem from="1641623084812" duration="2302000" />
+      <workItem from="1641636208337" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69385000" />
+    <option name="totallyTimeSpent" value="71696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-336" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -344,7 +300,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7342733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44902387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5954447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,6 +314,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
+      <window_info anchor="right" id="ASM" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -545,14 +502,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="107" column="53" lean-forward="true" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -782,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -807,6 +749,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="77" column="58" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="107" column="53" lean-forward="true" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

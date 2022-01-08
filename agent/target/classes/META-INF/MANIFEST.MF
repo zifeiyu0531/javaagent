@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: spotbugs-annotations-4.1.1.jar jsr305-3.0.2.jar javassist-
+ 3.23.2-GA.jar
+Premain-Class: com.yyy.agent.demo.agent.TtlAgent
+Can-Redefine-Classes: true
+Can-Set-Native-Method-Prefix: true
+Boot-Class-Path: agenttest.jar javassist-3.23.2-GA.jar
+Can-Retransform-Classes: true

@@ -1,5 +1,3 @@
 C:\Users\11863\Documents\GitHub\javaagent\agent\src\main\java\com\agent\MyAgent.java
 C:\Users\11863\Documents\GitHub\javaagent\agent\src\main\java\com\agent\MyClassFileTransformer.java
-C:\Users\11863\Documents\GitHub\javaagent\agent\src\main\java\com\agent\interceptor\AroundInterceptor.java
-C:\Users\11863\Documents\GitHub\javaagent\agent\src\main\java\com\agent\interceptor\Impl\MyInterceptor.java
-C:\Users\11863\Documents\GitHub\javaagent\agent\src\main\java\com\agent\interceptor\Interceptor.java
+C:\Users\11863\Documents\GitHub\javaagent\agent\src\main\java\com\agent\ChangeClassAdapter.java

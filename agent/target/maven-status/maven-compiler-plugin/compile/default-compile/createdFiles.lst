@@ -1,5 +1,3 @@
-com\agent\interceptor\Impl\MyInterceptor.class
-com\agent\interceptor\AroundInterceptor.class
+com\agent\ChangeClassAdapter.class
 com\agent\MyClassFileTransformer.class
 com\agent\MyAgent.class
-com\agent\interceptor\Interceptor.class

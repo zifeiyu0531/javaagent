@@ -32,6 +32,7 @@ public class DubboConsumerInterceptor implements AroundInterceptor {
         String address = StringUtil.buildAdress(targetInstance.getHost(), targetInstance.getPort());
         Invoker targetInvoker = InvokerMap.get(address);
         if (targetInvoker == null) {
+            System.out.println("polaris target invoker not found, use default invoker selected by dubbo");
             return;
         }
         List<Invoker> newInvokers = new ArrayList<>();
