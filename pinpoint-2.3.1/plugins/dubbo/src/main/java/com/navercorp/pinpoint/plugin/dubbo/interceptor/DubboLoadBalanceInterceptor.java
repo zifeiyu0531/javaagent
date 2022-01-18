@@ -1,6 +1,7 @@
 package com.navercorp.pinpoint.plugin.dubbo.interceptor;
 
 import com.navercorp.pinpoint.bootstrap.interceptor.AroundInterceptor;
+import com.navercorp.pinpoint.plugin.dubbo.polaris.loadbalance.LoadBalanceFactory;
 import com.navercorp.pinpoint.plugin.dubbo.polaris.loadbalance.PolarisAbstractLoadBalance;
 import com.navercorp.pinpoint.plugin.dubbo.utils.ReflectUtil;
 import org.apache.dubbo.common.utils.Holder;
@@ -11,7 +12,6 @@ import java.util.concurrent.ConcurrentMap;
 
 import static com.navercorp.pinpoint.plugin.dubbo.constants.DubboConstants.DUBBO_LOADBALANCES;
 import static com.navercorp.pinpoint.plugin.dubbo.constants.PolarisConstants.DEFAULT_LOADBALANCE;
-import static com.navercorp.pinpoint.plugin.dubbo.constants.PolarisConstants.LOADBALANCE_MAP;
 
 
 /**
@@ -49,19 +49,14 @@ public class DubboLoadBalanceInterceptor implements AroundInterceptor {
             return;
         }
 
-        if (!LOADBALANCE_MAP.containsKey(name)) {
-            LOGGER.warn("unexpected loadbalance: {}, use dubbo loadbalance instead", name);
+        Object loadBalanceInstance = LoadBalanceFactory.getLoadBalance(name);
+        if (loadBalanceInstance == null) {
+            LOGGER.warn("get LoadBalance fail, use dubbo LoadBalance instead");
             return;
         }
-        Class loadBalanceClazz = LOADBALANCE_MAP.get(name);
-        try {
-            Object loadBalanceInstance = loadBalanceClazz.newInstance();
-            Holder<Object> instanceHolder = new Holder<>();
-            instanceHolder.set(loadBalanceInstance);
-            cachedInstances.put(name, instanceHolder);
-        } catch (IllegalAccessException | InstantiationException e) {
-            LOGGER.error(e.getMessage());
-        }
+        Holder<Object> instanceHolder = new Holder<>();
+        instanceHolder.set(loadBalanceInstance);
+        cachedInstances.put(name, instanceHolder);
 
         LOGGER.info("save LoadBalance in cachedInstances done");
     }
