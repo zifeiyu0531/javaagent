@@ -1,7 +1,0 @@
----
-code: 200000
-info: "execute success"
-type: "CIRCUIT_BREAKER"
-service:
-  name: "DemoService"
-  namespace: "Dubbo"

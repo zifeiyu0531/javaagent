@@ -1,0 +1,6 @@
+com\agent\ClassTransformer.class
+com\agent\MyClassFileTransformer.class
+com\agent\MyClassNode.class
+com\agent\MyClassNode$1.class
+com\agent\MyAgent.class
+com\agent\MyClassNode$MyClassTransformer.class

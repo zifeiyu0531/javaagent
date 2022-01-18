@@ -1,0 +1,355 @@
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642312015722}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642312015660, events.size=6}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642312015660}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642312015702}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642312015712}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642312015722, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312015722}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312016969}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642312015712, events.size=3}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642312015712}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642312015722}
+01-16 13:46:56.056 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642312016969}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642312893599}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642312893532, events.size=6}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642312893532}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642312893573}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642312893583}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642312893583, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312893583}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312894832}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642312893583, events.size=3}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642312893583}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642312893583}
+01-16 14:01:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642312894832}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=TRANSIENT_FAILURE}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=8, callsStarted=8, callsSucceeded=0, lastCallStarted=1642312938678}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=21, creationTime=1642312893532, events.size=8}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312904668}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1642312906719}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312911485}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1642312913529}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312921827}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1642312923882}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642312939724}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering TRANSIENT_FAILURE state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=UNAVAILABLE, description=io exception, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9993
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+}, drop=false}}, severity=CT_INFO, timestamp=1642312941781}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=TRANSIENT_FAILURE}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=41, creationTime=1642312893583, events.size=8}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<40>: (/127.0.0.1:9993) SHUTDOWN with UNAVAILABLE(io exception), severity=CT_INFO, timestamp=1642312923882}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=TRANSIENT_FAILURE (UNAVAILABLE(io exception)). Will reconnect after 15,832,592,868 ns, severity=CT_INFO, timestamp=1642312923882}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<40>: (/127.0.0.1:9993) Terminated, severity=CT_INFO, timestamp=1642312923882}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING after backoff, severity=CT_INFO, timestamp=1642312939724}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<44>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642312939724}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<44>: (/127.0.0.1:9993) SHUTDOWN with UNAVAILABLE(io exception), severity=CT_INFO, timestamp=1642312941781}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=TRANSIENT_FAILURE (UNAVAILABLE(io exception)). Will reconnect after 22,175,421,993 ns, severity=CT_INFO, timestamp=1642312941781}
+01-16 14:02:34.034 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=NettyClientTransport<44>: (/127.0.0.1:9993) Terminated, severity=CT_INFO, timestamp=1642312941781}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642313266368}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642313266307, events.size=6}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642313266307}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642313266348}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642313266358}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642313266368, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642313266368}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642313267570}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642313266358, events.size=3}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642313266358}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642313266368}
+01-16 14:07:47.047 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642313267570}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642313315752}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642313315691, events.size=6}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642313315691}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642313315732}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642313315742}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642313315752, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642313315752}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642313316984}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642313315742, events.size=3}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642313315742}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642313315752}
+01-16 14:08:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642313316984}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642315446950}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642315446884, events.size=6}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642315446884}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642315446930}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642315446940}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642315446940, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642315446950}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642315448164}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642315446940, events.size=3}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642315446940}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642315446950}
+01-16 14:44:08.008 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642315448164}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642315894947}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642315894891, events.size=6}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642315894891}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642315894921}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642315894937}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642315894947, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642315894947}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642315896164}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642315894947, events.size=3}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642315894947}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642315894947}
+01-16 14:51:36.036 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642315896164}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642319351070}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642319351014, events.size=6}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642319351014}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642319351050}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642319351060}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642319351070, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642319351070}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642319352286}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642319351070, events.size=3}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642319351070}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642319351070}
+01-16 15:49:12.012 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642319352286}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642319632070}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642319632003, events.size=6}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642319632003}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642319632049}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642319632060}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642319632060, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642319632060}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642319633289}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642319632060, events.size=3}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642319632060}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642319632060}
+01-16 15:53:53.053 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642319633289}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642320228332}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642320228271, events.size=6}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642320228271}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642320228312}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642320228322}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642320228332, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642320228332}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642320229566}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642320228332, events.size=3}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642320228332}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642320228332}
+01-16 16:03:49.049 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642320229566}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642320290247}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642320290191, events.size=6}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642320290191}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642320290237}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642320290247}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642320290247, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642320290247}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642320291487}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642320290247, events.size=3}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642320290247}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642320290247}
+01-16 16:04:51.051 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642320291487}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642320895929}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642320895873, events.size=6}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642320895873}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642320895913}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642320895913}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642320895929, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642320895929}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642320897155}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642320895929, events.size=3}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642320895929}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642320895929}
+01-16 16:14:57.057 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642320897155}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642321692721}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642321692657, events.size=6}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642321692657}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642321692698}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642321692710}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642321692716, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642321692718}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642321693952}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642321692713, events.size=3}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642321692713}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642321692718}
+01-16 16:28:13.013 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642321693952}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642325100160}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642325100104, events.size=6}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642325100104}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642325100139}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642325100150}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642325100160, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642325100160}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642325101397}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642325100160, events.size=3}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642325100160}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642325100160}
+01-16 17:25:01.001 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642325101397}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642325440723}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642325440667, events.size=6}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642325440667}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642325440703}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642325440713}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642325440723, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642325440723}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642325441941}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642325440723, events.size=3}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642325440723}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642325440723}
+01-16 17:30:41.041 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642325441941}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642325481983}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642325481932, events.size=6}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642325481932}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642325481957}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642325481973}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642325481983, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642325481983}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642325483203}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642325481983, events.size=3}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642325481983}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642325481983}
+01-16 17:31:23.023 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642325483203}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {target=127.0.0.1:9993, stat=CONNECTING}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 {callsFailed=0, callsStarted=1, callsSucceeded=0, lastCallStarted=1642326515982}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 subchannels:[3]
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace {numEventsLogged=6, creationTime=1642326515919, events.size=6}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Channel for '127.0.0.1:9993' created, severity=CT_INFO, timestamp=1642326515919}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Exiting idle mode, severity=CT_INFO, timestamp=1642326515960}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Address resolved: [[[/127.0.0.1:9993]/{}]], severity=CT_INFO, timestamp=1642326515971}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Child Subchannel started, severity=CT_INFO, timestamp=1642326515978, subchannelRef=InternalSubchannel{logId=3, addressGroups=[[[/127.0.0.1:9993]/{}]]}}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=Subchannel<3>: (127.0.0.1:9993), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642326515979}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- RootChannel-1 channelTrace.events:Event{description=Entering CONNECTING state with picker: Picker{result=PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false}}, severity=CT_INFO, timestamp=1642326517200}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {target=[[[/127.0.0.1:9993]/{}]], stat=CONNECTING}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 {callsFailed=0, callsStarted=0, callsSucceeded=0, lastCallStarted=0}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 sockets:[6]
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace {numEventsLogged=3, creationTime=1642326515975, events.size=3}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Subchannel for [[[/127.0.0.1:9993]/{}]] created, severity=CT_INFO, timestamp=1642326515975}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=CONNECTING as requested, severity=CT_INFO, timestamp=1642326515979}
+01-16 17:48:37.037 [edReporter(0-0)] INFO  c.n.p.m.SpanChannel                      -- 1-SubChannel-3 channelTrace.events:Event{description=Started transport NettyClientTransport<6>: (/127.0.0.1:9993), severity=CT_INFO, timestamp=1642326517200}

@@ -1,10 +1,6 @@
 package com.agent;
 
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.*;
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
@@ -25,9 +21,9 @@ public class MyClassFileTransformer implements ClassFileTransformer {
             System.out.println("premain load Class     :" + className);
             // Use ASM tree api...
             ClassReader cr = new ClassReader(classfileBuffer);
-            ClassWriter cw = new ClassWriter(cr, Opcodes.ASM4);
+            ClassWriter cw = new ClassWriter(cr, ClassWriter.COMPUTE_MAXS);
             ClassVisitor cv = new ChangeClassAdapter(cw);
-            cr.accept(cv, 0);
+            cr.accept(cv, 8);
             return cw.toByteArray();
         } catch (Exception e) {
             System.out.println("exception: " + e.getMessage());

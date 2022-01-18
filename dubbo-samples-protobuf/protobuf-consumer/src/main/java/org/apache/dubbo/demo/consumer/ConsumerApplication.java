@@ -16,10 +16,10 @@
  */
 package org.apache.dubbo.demo.consumer;
 
+import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.demo.DemoService;
 import org.apache.dubbo.demo.HelloReply;
 import org.apache.dubbo.demo.HelloRequest;
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.concurrent.CompletableFuture;

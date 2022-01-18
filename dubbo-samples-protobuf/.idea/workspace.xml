@@ -2,31 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0023a806-33d1-47e6-be76-41925fdfc968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../agent/src/main/java/com/agent/ChangeClassAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agent/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agent/src/test/java/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent2/src/main/java/com/agent/ClassTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent2/src/main/java/com/agent/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent2/src/main/java/com/agent/MyClassNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent2/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/constants/DubboConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/constants/PolarisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/entity/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboClusterInvokerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboInvokeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboLoadBalanceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/polaris/PolarisDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/polaris/loadbalance/PolarisAbstractLoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/polaris/loadbalance/RandomLoadBalance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/ChangeClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/src/main/java/com/agent/ChangeClassAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/MyClassFileTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/src/main/java/com/agent/MyClassFileTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/interceptor/AroundInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/interceptor/Impl/MyInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/src/main/java/com/agent/interceptor/Interceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/src/test/java/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/src/test/java/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/ChangeClassAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/classes/com/agent/ChangeClassAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyClassFileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/classes/com/agent/MyClassFileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/interceptor/AroundInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/interceptor/Impl/MyInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/target/classes/com/agent/interceptor/Interceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agent/target/myagent-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/myagent-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/original-myagent-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/original-myagent-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agent/target/test-classes/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../agent/target/test-classes/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polaris/backup/svc#Dubbo#DemoService#circuit_breaking.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polaris/backup/svc#Dubbo#DemoService#circuit_breaking.yaml.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polaris/backup/svc#Dubbo#DemoService#instance.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polaris/backup/svc#Dubbo#DemoService#instance.yaml.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polaris/backup/svc#Dubbo#DemoService#routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polaris/backup/svc#Dubbo#DemoService#routing.yaml.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf-consumer/src/main/java/org/apache/dubbo/demo/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-consumer/src/main/java/org/apache/dubbo/demo/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboConsumerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboConsumerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-samples-protobuf2/protobuf-provider/target/protobuf-provider-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/DubboPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/DubboPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/entity/InvokerMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/entity/InvokerMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboConsumerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboInvokerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboInvokerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboProviderInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/interceptor/DubboProviderInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/PolarisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/PolarisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/ReflectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/ReflectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-2.3.1/plugins/dubbo/src/main/java/com/navercorp/pinpoint/plugin/dubbo/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint-2021-12-31-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint-2022-01-06-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint_stat.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-consumer/pinpoint_stat.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2022-01-06-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2022-01-06-2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint-2022-01-07-1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint_stat.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/logs/dubbo-provider/pinpoint_stat.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/plugin/pinpoint-dubbo-plugin-2.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pinpoint-agent-2.3.1/plugin/pinpoint-dubbo-plugin-2.3.1.jar" afterDir="false" />
@@ -41,15 +77,103 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="297" column="5" lean-forward="true" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
+            <state relative-caret-position="6858">
+              <caret line="312" column="79" selection-start-line="312" selection-start-column="79" selection-end-line="312" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2787#2788#0" expanded="true" />
+                <element signature="e#2838#2839#0" expanded="true" />
+                <element signature="e#3340#3341#0" expanded="true" />
+                <element signature="e#3387#3388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/Directory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/extension/ExtensionLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="144" column="7" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+              <folding>
+                <element signature="e#16955#16956#0" expanded="true" />
+                <element signature="e#17002#17003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/directory/AbstractDirectory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
+              <folding>
+                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2519#2520#0" expanded="true" />
+                <element signature="e#4116#4117#0" expanded="true" />
+                <element signature="e#4178#4179#0" expanded="true" />
+                <element signature="e#4224#4225#0" expanded="true" />
+                <element signature="e#4688#4689#0" expanded="true" />
+                <element signature="e#4720#4721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/integration/RegistryDirectory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <folding>
+                <element signature="e#4467#4468#0" expanded="true" />
+                <element signature="e#4506#4507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protobuf-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/client/migration/ServiceDiscoveryMigrationInvoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/ClusterInvoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,36 +182,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>init</find>
-      <find>RegistryProtocol</find>
-      <find>toString</find>
-      <find>Refer dubbo service</find>
-      <find>Invocation</find>
-      <find>RpcInvocation</find>
-      <find>select</find>
-      <find>UnmodifiableRandomAccessList</find>
-      <find>clear</find>
-      <find>AbstractLoadBalance</find>
-      <find>MockClusterInvoker</find>
-      <find>RegistryDirectory</find>
-      <find>doList</find>
-      <find>DubboInvoker</find>
-      <find>invoker refer:</find>
-      <find>getProxy</find>
-      <find>Proxy</find>
-      <find>ReferenceConfig</find>
-      <find>SCOPE_LOCAL</find>
-      <find>20880</find>
-      <find>doExport</find>
-      <find>ClusterInvoker</find>
-      <find>Invoker</find>
-      <find>setInvokers</find>
-      <find>getRouterChain</find>
-      <find>invoke</find>
-      <find>service.name</find>
-      <find>succ</find>
+      <find>Jar</find>
       <find>AbstractClusterInvoker</find>
-      <find>list</find>
+      <find>select</find>
+      <find>getExten</find>
+      <find>Registry</find>
+      <find>ExporterListener</find>
+      <find>exported</find>
+      <find>AbstractProxyProtocol</find>
+      <find>export</find>
+      <find>getExtension</find>
+      <find>ClusterInvoker after</find>
+      <find>ClusterInvoke</find>
+      <find>destroy</find>
+      <find>getInterface</find>
+      <find>T type</find>
+      <find>new RegistryDirectory</find>
+      <find>ClusterInvoker return</find>
+      <find>ListenerRegistryWrapper</find>
+      <find>Invoker</find>
+      <find>start time:</find>
+      <find>AbstractProtocol</find>
+      <find>getOrCreateHolder</find>
+      <find>getOrCreateHolder after</find>
+      <find>RandomLoadBalance</find>
+      <find>unexpected loadbalance</find>
+      <find>save LoadBalance in cachedInstances done</find>
+      <find>save LoadBalance in</find>
+      <find>ClusterInvoker</find>
+      <find>change directory to</find>
+      <find>invoke</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,10 +224,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/protobuf-provider/pom.xml" />
         <option value="$PROJECT_DIR$/protobuf-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/protobuf-consumer/src/main/resources/spring/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/protobuf-consumer/src/main/java/org/apache/dubbo/demo/consumer/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java" />
+        <option value="$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml" />
       </list>
     </option>
   </component>
@@ -152,9 +276,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1928" />
+    <option name="y" value="350" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -166,14 +290,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dubbo-samples-protobuf" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-samples-protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-samples-protobuf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-samples-protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-samples-protobuf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-samples-protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf-provider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +323,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641636167661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1642405907748" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,7 +365,7 @@
       <option name="MAIN_CLASS_NAME" value="org.apache.dubbo.demo.consumer.ConsumerApplication" />
       <module name="protobuf-consumer" />
       <shortenClasspath name="MANIFEST" />
-      <option name="VM_PARAMETERS" value="-javaagent:C:\Users\11863\Documents\GitHub\javaagent\agent\target\myagent-1.0-SNAPSHOT.jar" />
+      <option name="VM_PARAMETERS" value="-javaagent:C:\Users\11863\Documents\GitHub\javaagent\pinpoint-agent-2.3.1\pinpoint-bootstrap.jar -Dpinpoint.agentId=dubbo-consumer -Dpinpoint.applicationName=CONSUMER -Dnamespace=Dubbo -Dloadbalance=random" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.apache.dubbo.demo.consumer.*" />
@@ -284,11 +418,23 @@
       <workItem from="1641435431305" duration="13938000" />
       <workItem from="1641621691199" duration="4023000" />
       <workItem from="1641636197043" duration="1258000" />
+      <workItem from="1641699550807" duration="10270000" />
+      <workItem from="1641797857019" duration="8787000" />
+      <workItem from="1641872866247" duration="229000" />
+      <workItem from="1641874759050" duration="608000" />
+      <workItem from="1641968201055" duration="2364000" />
+      <workItem from="1642042248552" duration="7774000" />
+      <workItem from="1642137559643" duration="6028000" />
+      <workItem from="1642238164445" duration="6965000" />
+      <workItem from="1642308531602" duration="5757000" />
+      <workItem from="1642317540553" duration="7678000" />
+      <workItem from="1642397419285" duration="6133000" />
+      <workItem from="1642483693304" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140335000" />
+    <option name="totallyTimeSpent" value="203685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,9 +446,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="350" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -311,13 +457,13 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36117136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4078091" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40238613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29067245" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2527115" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="11" weight="0.329718" />
@@ -325,7 +471,6 @@
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
-      <window_info anchor="right" id="ASM" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,6 +483,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
+      <window_info anchor="right" id="ASM" order="12" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16364606" />
@@ -384,358 +530,388 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="RpcContext.getContext()" />
+        <watch expression="logger" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>logger</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/wrapper/AbstractCluster.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/com/alibaba/dubbo/rpc/Protocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="189">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#1709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/directory/StaticDirectory.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/xml/rpc/protocol/xmlrpc/XmlRpcProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        <state relative-caret-position="143">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/AbstractProxyProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/registry/ZoneAwareClusterInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk8/src.zip!/java/util/concurrent/ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/RouterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/client/ServiceDiscoveryRegistryDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9541">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/wrapper/MockClusterWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/META-INF/dubbo/internal/org.apache.dubbo.registry.RegistryFactory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/Registry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/RegistryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/dubbo/DubboRegistryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/zookeeper/ZookeeperRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/zookeeper/ZookeeperRegistryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/FailoverCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/ListenerRegistryWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/wrapper/AbstractCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/support/AbstractRegistryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/interceptor/ClusterInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/RpcConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/config/metadata/ConfigurableMetadataServiceExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/redis/RedisProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/integration/DynamicDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+          <folding>
+            <element signature="e#6585#6586#0" expanded="true" />
+            <element signature="e#6625#6626#0" expanded="true" />
+            <element signature="e#9028#9029#0" expanded="true" />
+            <element signature="e#9092#9093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/constants/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/listener/ListenerInvokerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/AbstractInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/memcached/MemcachedProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/Invocation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/dubbo/DubboRegistryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/integration/AbstractConfiguratorListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/dubbo/DubboInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3435">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/AbstractInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="130" column="8" lean-forward="true" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2879#2880#0" expanded="true" />
-            <element signature="e#2940#2941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/config/bootstrap/DubboBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/ProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/config/ReferenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="33" />
-          <folding>
-            <element signature="e#16494#16506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/interceptor/ClusterInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/registry/ZoneAwareClusterInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/container/log4j/Log4jContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/build/generated/source/proto/main/java/org/apache/dubbo/demo/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/dubbo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/Java/jdk8/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#List#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/rest/RestProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/config/ServiceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1448">
-          <caret line="518" column="33" selection-start-line="518" selection-start-column="24" selection-end-line="518" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/config/ProtocolConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/AbstractProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding>
-            <element signature="e#2170#2182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/AbstractProxyProtocol.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/wrapper/MockClusterInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-          <folding>
-            <element signature="e#2611#2641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/protocol/dubbo/DubboProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/java/org/apache/dubbo/demo/provider/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/Protocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/src/main/proto/DemoService.proto">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/proto/DemoService.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/build/generated/source/proto/main/java/org/apache/dubbo/demo/DemoServiceProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/build/generated/source/proto/main/java/org/apache/dubbo/demo/DemoServiceDubbo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/build/generated/source/proto/main/java/org/apache/dubbo/demo/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/src/main/resources/dubbo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/src/main/java/org/apache/dubbo/demo/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="30" column="62" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-consumer/src/main/resources/spring/dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="31" column="96" lean-forward="true" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protobuf-provider/src/main/resources/spring/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="225">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/integration/RegistryProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state relative-caret-position="194">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/LoadBalance.java">
+    <entry file="jar://E:/Java/jdk8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="-1890">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/loadbalance/RandomLoadBalance.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/config/DubboShutdownHook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="116">
+          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/loadbalance/RoundRobinLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/FailoverClusterInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
-          <caret line="74" column="36" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="39" />
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="30" />
+          <folding>
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/loadbalance/RandomLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/loadbalance/AbstractLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/LoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/utils/Holder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6858">
+          <caret line="312" column="79" selection-start-line="312" selection-start-column="79" selection-end-line="312" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="true" />
+            <element signature="e#3387#3388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/Directory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/directory/AbstractDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="1701">
+          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
           <folding>
-            <element signature="e#4082#4083#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2519#2520#0" expanded="true" />
             <element signature="e#4116#4117#0" expanded="true" />
+            <element signature="e#4178#4179#0" expanded="true" />
+            <element signature="e#4224#4225#0" expanded="true" />
+            <element signature="e#4688#4689#0" expanded="true" />
+            <element signature="e#4720#4721#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/integration/DynamicDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/RouterChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/integration/RegistryDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="164" column="31" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="31" />
+        <state relative-caret-position="243">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
             <element signature="e#4467#4468#0" expanded="true" />
             <element signature="e#4506#4507#0" expanded="true" />
@@ -743,10 +919,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/Directory.java">
+    <entry file="file://$PROJECT_DIR$/protobuf-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="162">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/registry/client/migration/ServiceDiscoveryMigrationInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -757,19 +941,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/BroadcastCluster2.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/common/extension/ExtensionLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/dubbo/dubbo/2.7.14/dubbo-2.7.14-sources.jar!/org/apache/dubbo/rpc/cluster/support/AbstractClusterInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="297" column="5" lean-forward="true" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="144" column="7" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#16955#16956#0" expanded="true" />
+            <element signature="e#17002#17003#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -831,7 +1009,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
