@@ -1,17 +1,16 @@
-package com.navercorp.pinpoint.plugin.dubbo.interceptor;
+package cn.polarismesh.agent.plugin.dubbo2.interceptor;
 
-import com.navercorp.pinpoint.bootstrap.interceptor.AroundInterceptor;
-import com.navercorp.pinpoint.plugin.dubbo.polaris.loadbalance.LoadBalanceFactory;
-import com.navercorp.pinpoint.plugin.dubbo.polaris.loadbalance.PolarisAbstractLoadBalance;
-import com.navercorp.pinpoint.plugin.dubbo.utils.ReflectUtil;
+import cn.polarismesh.agent.plugin.dubbo2.polaris.loadbalance.LoadBalanceFactory;
+import cn.polarismesh.agent.plugin.dubbo2.polaris.loadbalance.PolarisAbstractLoadBalance;
+import cn.polarismesh.agent.plugin.dubbo2.utils.ReflectUtil;
 import org.apache.dubbo.common.utils.Holder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Map;
+import java.util.concurrent.ConcurrentMap;
 
-import static com.navercorp.pinpoint.plugin.dubbo.constants.DubboConstants.DUBBO_LOADBALANCES;
-import static com.navercorp.pinpoint.plugin.dubbo.constants.PolarisConstants.DEFAULT_LOADBALANCE;
+import static cn.polarismesh.agent.plugin.dubbo2.constants.DubboConstants.DUBBO_LOADBALANCES;
+import static cn.polarismesh.agent.plugin.dubbo2.constants.PolarisConstants.DEFAULT_LOADBALANCE;
 
 
 /**
@@ -31,17 +30,19 @@ public class DubboLoadBalanceInterceptor implements AroundInterceptor {
     @SuppressWarnings("unchecked")
     @Override
     public void before(Object target, Object[] args) {
-        Map<String, Holder<Object>> cachedInstances =
-                (Map<String, Holder<Object>>) ReflectUtil.getObjectByFieldName(target, "cachedInstances");
+        String name = (String) args[0];
+        if (!DUBBO_LOADBALANCES.contains(name)) {
+            return;
+        }
+
+        ConcurrentMap<String, Holder<Object>> cachedInstances =
+                (ConcurrentMap<String, Holder<Object>>) ReflectUtil.getObjectByFieldName(target, "cachedInstances");
         if (cachedInstances == null) {
             LOGGER.error("get cachedInstances fail");
             return;
         }
 
-        String name = (String) args[0];
-        if (!DUBBO_LOADBALANCES.contains(name)) {
-            name = System.getProperty("loadbalance", DEFAULT_LOADBALANCE);
-        }
+        name = System.getProperty("loadbalance", DEFAULT_LOADBALANCE);
         Holder<Object> holder = cachedInstances.get(name);
         if (holder != null && holder.get() instanceof PolarisAbstractLoadBalance) {
             return;

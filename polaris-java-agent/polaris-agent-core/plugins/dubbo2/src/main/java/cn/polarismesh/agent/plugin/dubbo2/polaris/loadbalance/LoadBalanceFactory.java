@@ -1,4 +1,4 @@
-package com.navercorp.pinpoint.plugin.dubbo.polaris.loadbalance;
+package cn.polarismesh.agent.plugin.dubbo2.polaris.loadbalance;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,10 @@ public class LoadBalanceFactory {
             LOGGER.info("loadbalance is not defined");
             return null;
         }
-        return new RandomLoadBalance();
-        // TODO 其他负载均衡策略
+        if (loadbalance.equals("random")) {
+            return new RandomLoadBalance();
+        }// TODO 其他负载均衡策略
+        LOGGER.warn("invalid loadbalance: {}", loadbalance);
+        return null;
     }
 }
